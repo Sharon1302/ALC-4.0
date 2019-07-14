@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Welcome To Alc 4.0"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#000"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        />
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#ffaa00"
+        android:fontFamily="serif-monospace"
+        android:onClick="OpenAndelaLink"
+        android:text="About ALC"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OpenProfile"
+        android:text="MY profile"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
+        android:textSize="24sp"
+        android:background="#ffaa00"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

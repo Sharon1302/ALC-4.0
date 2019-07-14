@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Andela Task1</string>
+    <string name="country">Country: Nigeria</string>
+    <string name="track">Track: Android</string>
+    <string name="mail">Email: sharonayoola4@gmail.com</string>
+    <string name="slack">Slack Username: @Sharon</string>
+    <string name="phone">Phone Number: 08103028730</string>
+    <string name="name">SHARON AYOOLA</string>
+
+</resources>
